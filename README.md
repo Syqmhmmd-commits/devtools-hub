@@ -1,5 +1,7 @@
 # 🛠️ DevTools Hub
 
+[![Live Demo](https://img.shields.io/badge/demo-live-6366f1?style=for-the-badge)](https://syqmhmmd-commits.github.io/devtools-hub/)
+
 20 tools developer ringan — jalan di CLI dan browser. 100% client-side.
 
 ## Tools
