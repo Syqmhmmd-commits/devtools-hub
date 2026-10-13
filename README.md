@@ -50,6 +50,7 @@ pnpm dev
 Buka http://localhost:3000
 ```
 ## CLI 
+```bash
 $ dt list
 
   DevTools Hub  — 20 tools
@@ -115,24 +116,25 @@ $ dt color "#3b82f6"
             #0846aa
             #06327a
             #031e49
+```
 
 ## 🏗️ Arsitektur
 Setiap tool punya core logic murni yang di-share antara CLI & Web:
 
-                  ┌──────────────────┐
-                  │   tool-xxx/      │
-                  │  (pure functions)│
-                  └────────┬─────────┘
-                           │
-              ┌────────────┴────────────┐
-              ▼                         ▼
-       ┌─────────────┐           ┌─────────────┐
-       │   CLI       │           │    Web      │
-       │ (Node APIs) │           │ (Browser)   │
-       └─────────────┘           └─────────────┘
+                                  ┌──────────────────┐
+                                  │   tool-xxx/      │
+                                  │  (pure functions)│
+                                  └────────┬─────────┘
+                                           │
+                              ┌────────────┴────────────┐
+                              ▼                         ▼
+                       ┌─────────────┐           ┌─────────────┐
+                       │   CLI       │           │    Web      │
+                       │ (Node APIs) │           │ (Browser)   │
+                       └─────────────┘           └─────────────┘
 
 ## 📁 Struktur
-
+```
 devtools-hub/
 ├── packages/
 │   ├── core/                 # shared utils
@@ -144,6 +146,7 @@ devtools-hub/
 │   └── web/                  # Next.js 16 + Tailwind v4
 ├── pnpm-workspace.yaml
 └── package.json
+```
 
 ## 🛠️ Development
 
@@ -158,4 +161,4 @@ MIT © Syqmhmmd-commits
 <div align="center">
 ⭐ Kalau berguna, kasih star ya! ⭐
 
-</div> ```
+</div> 
