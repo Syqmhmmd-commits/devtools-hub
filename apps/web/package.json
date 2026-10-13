@@ -1,0 +1,48 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@devtools/tool-base64": "workspace:*",
+    "@devtools/tool-hash": "workspace:*",
+    "@devtools/tool-json": "workspace:*",
+    "@devtools/tool-timestamp": "workspace:*",
+    "@devtools/tool-uuid": "workspace:*",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "@devtools/tool-jwt": "workspace:*",
+    "@devtools/tool-color": "workspace:*",
+    "@devtools/tool-regex": "workspace:*",
+    "@devtools/tool-cron": "workspace:*",
+    "@devtools/tool-case": "workspace:*",
+    "@devtools/tool-password": "workspace:*",
+    "@devtools/tool-qr": "workspace:*",
+    "@devtools/tool-diff": "workspace:*",
+    "@devtools/tool-lorem": "workspace:*",
+    "@devtools/tool-url": "workspace:*",
+    "@devtools/tool-yaml": "workspace:*",
+    "@devtools/tool-markdown": "workspace:*",
+    "@devtools/tool-slug": "workspace:*",
+    "@devtools/tool-semver": "workspace:*",
+    "@devtools/tool-mime": "workspace:*"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@12.11.2"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@devtools/cli",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "dt": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup src/index.ts --format esm --clean"
+  },
+  "dependencies": {
+    "@devtools/tool-base64": "workspace:*",
+    "@devtools/tool-json": "workspace:*",
+    "@devtools/tool-uuid": "workspace:*",
+    "@devtools/tool-hash": "workspace:*",
+    "@devtools/tool-timestamp": "workspace:*",
+    "commander": "^12.0.0",
+    "@devtools/tool-jwt": "workspace:*",
+    "@devtools/tool-color": "workspace:*",
+    "@devtools/tool-regex": "workspace:*",
+    "@devtools/tool-cron": "workspace:*",
+    "@devtools/tool-case": "workspace:*",
+    "@devtools/tool-password": "workspace:*",
+    "@devtools/tool-qr": "workspace:*",
+    "@devtools/tool-diff": "workspace:*",
+    "@devtools/tool-lorem": "workspace:*",
+    "@devtools/tool-url": "workspace:*",
+    "@devtools/tool-yaml": "workspace:*",
+    "@devtools/tool-markdown": "workspace:*",
+    "@devtools/tool-slug": "workspace:*",
+    "@devtools/tool-semver": "workspace:*",
+    "@devtools/tool-mime": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "tsx": "^4.7.0"
+  }
+}
