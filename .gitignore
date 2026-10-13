@@ -36,3 +36,6 @@ Thumbs.db
 
 # Misc
 *.tsbuildinfo
+
+# Setup scripts
+setup*.sh
